@@ -22,10 +22,10 @@
  */
 
 switch ($type) {
-    case 'order':
+case 'order': // ###php-mode-test### ((indent 0))
         $clients_wants_order = $row['customer_wants_order'];
         break;
-    case 'preorder':
+case 'preorder': // ###php-mode-test### ((indent 0))
         $clients_wants_preorder = $row['customer_wants_preorder'];
         break;
 }

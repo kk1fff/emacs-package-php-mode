@@ -209,3 +209,7 @@ an error."
 (ert-deftest php-mode-test-issue-99 ()
   "Proper indentation for 'foreach' statements without braces."
   (with-php-mode-test ("issue-99.php" :indent t :magic t)))
+
+(ert-deftest php-mode-test-issue-111 ()
+  "Proper indentation for switch-case using the Symfony2 style."
+  (with-php-mode-test ("issue-111.php" :indent t :magic t :style 'symfony2)))
