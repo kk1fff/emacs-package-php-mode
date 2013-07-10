@@ -368,7 +368,7 @@ working with Wordpress."
                        (topmost-intro-cont . c-lineup-cascaded-calls)
                        (brace-list-intro . +)
                        (brace-list-entry . c-lineup-cascaded-calls)
-                       (case-label . 4)
+                       (case-label . 0)
                        (statement-case-intro . 4)
                        (defun-close . 0)
                        (defun-block-intro . +)
